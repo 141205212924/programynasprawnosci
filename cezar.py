@@ -33,7 +33,7 @@ while not end_program:
     else:
         decide = input(
             'złe hasło, spróbuj ponownie T dla TAK, N dla NIE: \n').lower()
-        if decide == 'y':
+        if decide == 't'
             sentence = list(input('wpisz twój tekst: \n').lower())
             what_to_do = input(
                 'napisz szyfruj aby zaszyfrować, odszyfruj aby zdekodować, wyjscie aby wyjść z programu \n').lower()
